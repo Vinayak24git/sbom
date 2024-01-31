@@ -16,6 +16,22 @@
       <scope>test</scope>
     </dependency>
 
+    <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20230618</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-core_2.13</artifactId>
+            <version>3.4.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.kerby</groupId>
+            <artifactId>kerb-server</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+
     <!-- Add Log4j Dependency -->
     <dependency>
       <groupId>log4j</groupId>
